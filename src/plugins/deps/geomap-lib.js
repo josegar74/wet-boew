@@ -35,7 +35,7 @@ var componentName = "wb-geomap",
 		useGeocoder: false,
 		useGeolocation: false,
 		useAOI: false,
-		displayAOIButtonsBottom: false,
+		displayAOIButtonsBottom: false
 	},
 
 	filterMap = {
@@ -114,7 +114,7 @@ var componentName = "wb-geomap",
 				useGeocoder: className.indexOf( "geocoder" ) !== -1 ? true : false,
 				useGeolocation: className.indexOf( "geolocation" ) !== -1 ? true : false,
 				useAOI: className.indexOf( "aoi" ) !== -1 ? true : false,
-				displayAOIButtonsBottom: className.indexOf( "aoi-buttons-bottom" ) !== -1 ? true : false,
+				displayAOIButtonsBottom: className.indexOf( "aoi-buttons-bottom" ) !== -1 ? true : false
 			};
 
 			// Merge default settings with overrides from the selected plugin element.
